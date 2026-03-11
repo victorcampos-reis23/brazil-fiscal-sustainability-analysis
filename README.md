@@ -7,25 +7,25 @@ This project provides a quantitative simulation of the Primary Surplus required 
 
 The goal is to visualize the "Fiscal Policy Space" through a sensitivity matrix (Heatmap), identifying the boundaries where debt dynamics transition from sustainable to explosive (Fiscal Dominance risk).
 
-# 🧮 Theoretical Framework
+## 🧮 Theoretical Framework
 
 The stabilization of the debt-to-GDP ratio is governed by the following fundamental equation:
-           
-            $$b = \left( \frac{r - g}{1 + g} \right) \times d$$
+
+$$
+b = \left( \frac{r - g}{1 + g} \right) \times d
+$$
+
 Where:
+- **$b$**: Primary balance required to stabilize the debt-to-GDP ratio.
+- **$r$**: Real interest rate (Ex-ante).
+- **$g$**: Real GDP growth rate.
+- **$d$**: Gross General Government Debt (DBGG) as a % of GDP.
 
-       $b$: Primary balance required to stabilize the debt-to-GDP ratio.
+**Fiscal Effort Calculation:**
 
-       $r$: Real interest rate (Ex-ante).
-
-       $g$: Real GDP growth rate.
-
-       $d$: Gross General Government Debt (DBGG) as a % of GDP.
-
-#Fiscal Effort Calculation:
-To measure the actual challenge, the model calculates the Fiscal Effort Gap:
-
-        $$\text{Fiscal Effort} = b - \text{Current Primary Balance}$$
+$$
+\text{Fiscal Effort} = b - \text{Current Primary Balance}
+$$
 
 📊 Key Parameters (2024-2026 Outlook):
 
